@@ -16,6 +16,7 @@ from deal_checker import (
     fetch_steam,
     fmt_price,
     load_history,
+    report_from_history,
     save_history,
     today_utc,
     update_history,
@@ -34,10 +35,22 @@ EMBED = st.query_params.get("embed", "false") == "true"
 
 @st.cache_data(ttl=1800, show_spinner=False)
 def get_deals():
-    """Fetch fresh data (cached for 30 minutes) and merge into history."""
-    steam = fetch_steam()
-    epic = fetch_epic()
+    """Fetch fresh data (cached 30 min) and merge into history.
+
+    If the live APIs are unreachable, falls back to the last known data
+    stored in history.json so the page is never blank.
+    """
     history = load_history(HISTORY_PATH)
+    try:
+        steam = fetch_steam(budget=30)
+        epic = fetch_epic()
+        live_ok = bool(steam) or bool(epic["current"])
+    except Exception:
+        steam, epic, live_ok = {}, {"current": [], "upcoming": []}, False
+
+    if not live_ok:
+        return report_from_history(history), history, {"current": [], "upcoming": []}
+
     report = update_history(history, steam, epic, today_utc())
     try:
         save_history(history, HISTORY_PATH)
@@ -61,7 +74,15 @@ def main():
         "Steam discounts and all-time low (ATL) price alerts."
     )
 
-    report, history, epic = get_deals()
+    with st.spinner("Fetching today's deals..."):
+        report, history, epic = get_deals()
+
+    if not report["steam"] and not epic["current"] and not epic["upcoming"]:
+        st.warning(
+            "Could not reach Steam / Epic right now and no cached data is "
+            "available yet. Check back in a few minutes."
+        )
+        return
 
     # ------------------------------------------------------------------ epic
     @st.fragment(run_every="1h")

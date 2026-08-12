@@ -14,6 +14,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 
@@ -32,7 +33,8 @@ HEADERS = {
     )
 }
 
-WORKERS = 12
+WORKERS = 10
+STEAM_TIMEOUT = 8
 
 
 def fmt_price(cents: int | None, currency: str = "USD") -> str:
@@ -47,21 +49,26 @@ def today_utc() -> str:
 
 # ---------------------------------------------------------------- fetching
 
-def fetch_steam() -> dict[int, dict]:
+def fetch_steam(budget: float = 30.0) -> dict[int, dict]:
     """Return {appid: {name, is_free, final, initial, discount_pct, url}}.
 
     Steam no longer accepts comma-separated appids, so each game is fetched
-    individually (in parallel) and failures are skipped.
+    individually (in parallel) and failures are skipped. `budget` caps the
+    total wall-clock time in seconds so the app never hangs waiting on a
+    slow / rate-limited API.
     """
     results: dict[int, dict] = {}
     ids = list(POPULAR_GAMES.keys())
+    deadline = time.monotonic() + budget
 
     def _one(appid: int) -> tuple[int, dict | None]:
         try:
             resp = requests.get(
                 STEAM_API, params={"appids": appid},
-                headers=HEADERS, timeout=30,
+                headers=HEADERS, timeout=STEAM_TIMEOUT,
             )
+            if resp.status_code != 200:
+                return appid, None
             payload = resp.json()
         except (requests.RequestException, ValueError):
             return appid, None
@@ -84,8 +91,12 @@ def fetch_steam() -> dict[int, dict]:
         }
 
     with ThreadPoolExecutor(max_workers=WORKERS) as pool:
-        futures = {pool.submit(_one, appid): appid for appid in ids}
-        for future in as_completed(futures):
+        submitted = []
+        for appid in ids:
+            if time.monotonic() >= deadline:
+                break
+            submitted.append(pool.submit(_one, appid))
+        for future in as_completed(submitted):
             appid, info = future.result()
             if info:
                 results[appid] = info
@@ -97,7 +108,7 @@ def fetch_epic() -> dict[str, list[dict]]:
     try:
         resp = requests.get(EPIC_API, params={
             "locale": "en-US", "country": "US", "allowCountries": "US",
-        }, headers=HEADERS, timeout=30)
+        }, headers=HEADERS, timeout=15)
         elements = resp.json()["data"]["Catalog"]["searchStore"]["elements"]
     except (requests.RequestException, ValueError, KeyError):
         return {"current": [], "upcoming": []}
@@ -190,6 +201,8 @@ def update_history(history: dict, steam: dict[int, dict], epic: dict, day: str) 
         is_new_low = prev_min is None or price < prev_min
 
         record["prices"][day] = price
+        record["last_formatted"] = game["final_formatted"] or f"{game['currency']} {price}"
+        record["last_discount"] = game["discount_pct"]
         if is_new_low:
             record["min_price"] = price
             record["min_date"] = day
@@ -217,6 +230,26 @@ def update_history(history: dict, steam: dict[int, dict], epic: dict, day: str) 
 
     history["updated"] = datetime.now(timezone.utc).isoformat()
     return {"steam": reports, "epic_free_new": new_free}
+
+
+def report_from_history(history: dict) -> dict:
+    """Build a deals report purely from stored history (offline fallback)."""
+    reports = []
+    for record in history.get("steam", {}).values():
+        reports.append({
+            "appid": None,
+            "name": record.get("name", "Unknown"),
+            "url": record.get("url", ""),
+            "final": record.get("min_price"),
+            "final_formatted": record.get("last_formatted"),
+            "initial": None,
+            "discount_pct": record.get("last_discount", 0),
+            "currency": record.get("currency", "USD"),
+            "min_price": record.get("min_price"),
+            "min_date": record.get("min_date"),
+            "is_new_atl": False,
+        })
+    return reports
 
 
 def run_check(history_path: str = HISTORY_PATH) -> dict:

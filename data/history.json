@@ -8,7 +8,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 5999
-      }
+      },
+      "last_formatted": "59,99€",
+      "last_discount": 0
     },
     "990080": {
       "name": "Hogwarts Legacy",
@@ -78,7 +80,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 5999
-      }
+      },
+      "last_formatted": "59,99€",
+      "last_discount": 0
     },
     "1174180": {
       "name": "Red Dead Redemption 2",
@@ -158,7 +162,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 2450
-      }
+      },
+      "last_formatted": "24,50€",
+      "last_discount": 0
     },
     "892970": {
       "name": "Valheim",
@@ -168,7 +174,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 2999
-      }
+      },
+      "last_formatted": "29,99€",
+      "last_discount": 0
     },
     "1145350": {
       "name": "Hades II",
@@ -178,7 +186,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 2899
-      }
+      },
+      "last_formatted": "28,99€",
+      "last_discount": 0
     },
     "367520": {
       "name": "Hollow Knight",
@@ -198,7 +208,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 899
-      }
+      },
+      "last_formatted": "8,99€",
+      "last_discount": 70
     },
     "413150": {
       "name": "Stardew Valley",
@@ -246,7 +258,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 3999
-      }
+      },
+      "last_formatted": "CDN$ 39.99",
+      "last_discount": 0
     },
     "553850": {
       "name": "HELLDIVERS™ 2",
@@ -296,7 +310,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 5999
-      }
+      },
+      "last_formatted": "59,99€",
+      "last_discount": 0
     },
     "526870": {
       "name": "Satisfactory",
@@ -306,7 +322,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 3899
-      }
+      },
+      "last_formatted": "38,99€",
+      "last_discount": 0
     },
     "275850": {
       "name": "No Man's Sky",
@@ -316,7 +334,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 5899
-      }
+      },
+      "last_formatted": "58,99€",
+      "last_discount": 0
     },
     "427520": {
       "name": "Factorio",
@@ -326,7 +346,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 3200
-      }
+      },
+      "last_formatted": "32,--€",
+      "last_discount": 0
     },
     "489830": {
       "name": "The Elder Scrolls V: Skyrim Special Edition",
@@ -336,7 +358,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 999
-      }
+      },
+      "last_formatted": "9,99€",
+      "last_discount": 75
     },
     "1716740": {
       "name": "Starfield",
@@ -346,7 +370,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 3999
-      }
+      },
+      "last_formatted": "39,99€",
+      "last_discount": 20
     },
     "377160": {
       "name": "Fallout 4",
@@ -356,7 +382,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 799
-      }
+      },
+      "last_formatted": "7,99€",
+      "last_discount": 60
     },
     "1151340": {
       "name": "Fallout 76",
@@ -366,7 +394,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 999
-      }
+      },
+      "last_formatted": "9,99€",
+      "last_discount": 75
     },
     "2050650": {
       "name": "Resident Evil 4",
@@ -376,7 +406,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 3999
-      }
+      },
+      "last_formatted": "39,99€",
+      "last_discount": 0
     },
     "739630": {
       "name": "Phasmophobia",
@@ -386,7 +418,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 1899
-      }
+      },
+      "last_formatted": "18,99€",
+      "last_discount": 0
     },
     "883710": {
       "name": "Resident Evil 2",
@@ -406,7 +440,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 2549
-      }
+      },
+      "last_formatted": "25,49€",
+      "last_discount": 0
     },
     "381210": {
       "name": "Dead by Daylight",
@@ -416,7 +452,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 1499
-      }
+      },
+      "last_formatted": "$14.99 USD",
+      "last_discount": 0
     },
     "221100": {
       "name": "DayZ",
@@ -426,7 +464,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 4799
-      }
+      },
+      "last_formatted": "47,99€",
+      "last_discount": 0
     },
     "294100": {
       "name": "RimWorld",
@@ -456,7 +496,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 5999
-      }
+      },
+      "last_formatted": "$59.99 USD",
+      "last_discount": 0
     },
     "1551360": {
       "name": "Forza Horizon 5",
@@ -486,7 +528,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 1049
-      }
+      },
+      "last_formatted": "$10.49 USD",
+      "last_discount": 0
     },
     "1326470": {
       "name": "Sons Of The Forest",
@@ -516,7 +560,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 2999
-      }
+      },
+      "last_formatted": "29,99€",
+      "last_discount": 0
     },
     "962130": {
       "name": "Grounded",
@@ -556,7 +602,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 819
-      }
+      },
+      "last_formatted": "8,19€",
+      "last_discount": 0
     },
     "203160": {
       "name": "Tomb Raider Game of the Year",
@@ -576,7 +624,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 1449
-      }
+      },
+      "last_formatted": "$14.49 USD",
+      "last_discount": 0
     },
     "750920": {
       "name": "Shadow of the Tomb Raider: Definitive Edition",
@@ -586,7 +636,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 3999
-      }
+      },
+      "last_formatted": "39,99€",
+      "last_discount": 0
     },
     "1158310": {
       "name": "Crusader Kings III",
@@ -596,7 +648,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 4999
-      }
+      },
+      "last_formatted": "49,99€",
+      "last_discount": 0
     },
     "281990": {
       "name": "Stellaris",
@@ -606,7 +660,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 4999
-      }
+      },
+      "last_formatted": "49,99€",
+      "last_discount": 0
     },
     "289070": {
       "name": "Sid Meier’s Civilization® VI",
@@ -626,7 +682,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 6999
-      }
+      },
+      "last_formatted": "$69.99",
+      "last_discount": 0
     },
     "230410": {
       "name": "Warframe",
@@ -700,7 +758,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 899
-      }
+      },
+      "last_formatted": "8,99€",
+      "last_discount": 85
     },
     "2208920": {
       "name": "Assassin's Creed Valhalla",
@@ -710,7 +770,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 1499
-      }
+      },
+      "last_formatted": "14,99€",
+      "last_discount": 75
     },
     "2694490": {
       "name": "Path of Exile 2",
@@ -720,7 +782,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 2775
-      }
+      },
+      "last_formatted": "27,75€",
+      "last_discount": 0
     },
     "1817070": {
       "name": "Marvel’s Spider-Man Remastered",
@@ -730,7 +794,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 5999
-      }
+      },
+      "last_formatted": "59,99€",
+      "last_discount": 0
     },
     "1593500": {
       "name": "God of War",
@@ -760,7 +826,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 5999
-      }
+      },
+      "last_formatted": "59,99€",
+      "last_discount": 0
     },
     "1151640": {
       "name": "Horizon Zero Dawn™ Complete Edition",
@@ -778,7 +846,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 1799
-      }
+      },
+      "last_formatted": "$17.99",
+      "last_discount": 70
     },
     "1778820": {
       "name": "TEKKEN 8",
@@ -838,7 +908,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 499
-      }
+      },
+      "last_formatted": "4,99€",
+      "last_discount": 0
     },
     "1868140": {
       "name": "DAVE THE DIVER",
@@ -848,7 +920,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 1999
-      }
+      },
+      "last_formatted": "19,99€",
+      "last_discount": 0
     },
     "1562430": {
       "name": "DREDGE",
@@ -858,7 +932,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 999
-      }
+      },
+      "last_formatted": "9,99€",
+      "last_discount": 60
     },
     "1172620": {
       "name": "Sea of Thieves: 2026 Edition",
@@ -878,7 +954,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 4199
-      }
+      },
+      "last_formatted": "$41.99",
+      "last_discount": 30
     },
     "1284190": {
       "name": "The Planet Crafter",
@@ -918,7 +996,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 99
-      }
+      },
+      "last_formatted": "0,99€",
+      "last_discount": 0
     },
     "668210": {
       "name": "Super Fancy Pants Adventure",
@@ -928,7 +1008,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 999
-      }
+      },
+      "last_formatted": "9,99€",
+      "last_discount": 0
     },
     "1774580": {
       "name": "STAR WARS Jedi: Survivor™",
@@ -948,7 +1030,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 2999
-      }
+      },
+      "last_formatted": "29,99€",
+      "last_discount": 50
     },
     "1172380": {
       "name": "STAR WARS Jedi: Fallen Order™",
@@ -978,7 +1062,9 @@
       "min_date": "2026-08-12",
       "prices": {
         "2026-08-12": 5999
-      }
+      },
+      "last_formatted": "59,99€",
+      "last_discount": 0
     },
     "2379780": {
       "name": "Balatro",
@@ -997,5 +1083,5 @@
       "We Were Here Together"
     ]
   },
-  "updated": "2026-08-12T07:27:54.523631+00:00"
+  "updated": "2026-08-12T07:36:50.039512+00:00"
 }
