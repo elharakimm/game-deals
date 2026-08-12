@@ -1,0 +1,1001 @@
+{
+  "steam": {
+    "1091500": {
+      "name": "Cyberpunk 2077",
+      "url": "https://store.steampowered.com/app/1091500/",
+      "currency": "EUR",
+      "min_price": 5999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 5999
+      }
+    },
+    "990080": {
+      "name": "Hogwarts Legacy",
+      "url": "https://store.steampowered.com/app/990080/",
+      "currency": "USD",
+      "min_price": 5999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 5999
+      }
+    },
+    "570": {
+      "name": "Dota 2",
+      "url": "https://store.steampowered.com/app/570/",
+      "currency": null,
+      "min_price": null,
+      "min_date": null,
+      "prices": {}
+    },
+    "271590": {
+      "name": "Grand Theft Auto V Legacy",
+      "url": "https://store.steampowered.com/app/271590/",
+      "currency": null,
+      "min_price": null,
+      "min_date": null,
+      "prices": {}
+    },
+    "578080": {
+      "name": "PUBG: BATTLEGROUNDS",
+      "url": "https://store.steampowered.com/app/578080/",
+      "currency": null,
+      "min_price": null,
+      "min_date": null,
+      "prices": {}
+    },
+    "292030": {
+      "name": "The Witcher 3: Wild Hunt",
+      "url": "https://store.steampowered.com/app/292030/",
+      "currency": "INR",
+      "min_price": 179900,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 179900
+      }
+    },
+    "1172470": {
+      "name": "Apex Legends™",
+      "url": "https://store.steampowered.com/app/1172470/",
+      "currency": null,
+      "min_price": null,
+      "min_date": null,
+      "prices": {}
+    },
+    "730": {
+      "name": "Counter-Strike 2",
+      "url": "https://store.steampowered.com/app/730/",
+      "currency": null,
+      "min_price": null,
+      "min_date": null,
+      "prices": {}
+    },
+    "1245620": {
+      "name": "ELDEN RING",
+      "url": "https://store.steampowered.com/app/1245620/",
+      "currency": "EUR",
+      "min_price": 5999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 5999
+      }
+    },
+    "1174180": {
+      "name": "Red Dead Redemption 2",
+      "url": "https://store.steampowered.com/app/1174180/",
+      "currency": "EUR",
+      "min_price": 5999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 5999
+      }
+    },
+    "1086940": {
+      "name": "Baldur's Gate 3",
+      "url": "https://store.steampowered.com/app/1086940/",
+      "currency": "EUR",
+      "min_price": 5999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 5999
+      }
+    },
+    "814380": {
+      "name": "Sekiro™: Shadows Die Twice - GOTY Edition",
+      "url": "https://store.steampowered.com/app/814380/",
+      "currency": "USD",
+      "min_price": 3199,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 3199
+      }
+    },
+    "105600": {
+      "name": "Terraria",
+      "url": "https://store.steampowered.com/app/105600/",
+      "currency": "EUR",
+      "min_price": 975,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 975
+      }
+    },
+    "252490": {
+      "name": "Rust",
+      "url": "https://store.steampowered.com/app/252490/",
+      "currency": "EUR",
+      "min_price": 1999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 1999
+      }
+    },
+    "1426210": {
+      "name": "It Takes Two",
+      "url": "https://store.steampowered.com/app/1426210/",
+      "currency": "EUR",
+      "min_price": 1199,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 1199
+      }
+    },
+    "268910": {
+      "name": "Cuphead",
+      "url": "https://store.steampowered.com/app/268910/",
+      "currency": "CAD",
+      "min_price": 2199,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 2199
+      }
+    },
+    "1145360": {
+      "name": "Hades",
+      "url": "https://store.steampowered.com/app/1145360/",
+      "currency": "EUR",
+      "min_price": 2450,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 2450
+      }
+    },
+    "892970": {
+      "name": "Valheim",
+      "url": "https://store.steampowered.com/app/892970/",
+      "currency": "EUR",
+      "min_price": 2999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 2999
+      }
+    },
+    "1145350": {
+      "name": "Hades II",
+      "url": "https://store.steampowered.com/app/1145350/",
+      "currency": "EUR",
+      "min_price": 2899,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 2899
+      }
+    },
+    "367520": {
+      "name": "Hollow Knight",
+      "url": "https://store.steampowered.com/app/367520/",
+      "currency": "USD",
+      "min_price": 1499,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 1499
+      }
+    },
+    "1222700": {
+      "name": "A Way Out",
+      "url": "https://store.steampowered.com/app/1222700/",
+      "currency": "EUR",
+      "min_price": 899,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 899
+      }
+    },
+    "413150": {
+      "name": "Stardew Valley",
+      "url": "https://store.steampowered.com/app/413150/",
+      "currency": "EUR",
+      "min_price": 1399,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 1399
+      }
+    },
+    "1097150": {
+      "name": "Fall Guys",
+      "url": "https://store.steampowered.com/app/1097150/",
+      "currency": null,
+      "min_price": null,
+      "min_date": null,
+      "prices": {}
+    },
+    "945360": {
+      "name": "Among Us",
+      "url": "https://store.steampowered.com/app/945360/",
+      "currency": "EUR",
+      "min_price": 449,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 449
+      }
+    },
+    "1604030": {
+      "name": "V Rising",
+      "url": "https://store.steampowered.com/app/1604030/",
+      "currency": "USD",
+      "min_price": 3499,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 3499
+      }
+    },
+    "1203620": {
+      "name": "Enshrouded",
+      "url": "https://store.steampowered.com/app/1203620/",
+      "currency": "CAD",
+      "min_price": 3999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 3999
+      }
+    },
+    "553850": {
+      "name": "HELLDIVERS™ 2",
+      "url": "https://store.steampowered.com/app/553850/",
+      "currency": "BRL",
+      "min_price": 14962,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 14962
+      }
+    },
+    "582010": {
+      "name": "Monster Hunter: World",
+      "url": "https://store.steampowered.com/app/582010/",
+      "currency": "INR",
+      "min_price": 199700,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 199700
+      }
+    },
+    "2246340": {
+      "name": "Monster Hunter Wilds",
+      "url": "https://store.steampowered.com/app/2246340/",
+      "currency": "USD",
+      "min_price": 3999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 3999
+      }
+    },
+    "1623730": {
+      "name": "Palworld",
+      "url": "https://store.steampowered.com/app/1623730/",
+      "currency": "EUR",
+      "min_price": 2899,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 2899
+      }
+    },
+    "374320": {
+      "name": "DARK SOULS™ III",
+      "url": "https://store.steampowered.com/app/374320/",
+      "currency": "EUR",
+      "min_price": 5999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 5999
+      }
+    },
+    "526870": {
+      "name": "Satisfactory",
+      "url": "https://store.steampowered.com/app/526870/",
+      "currency": "EUR",
+      "min_price": 3899,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 3899
+      }
+    },
+    "275850": {
+      "name": "No Man's Sky",
+      "url": "https://store.steampowered.com/app/275850/",
+      "currency": "EUR",
+      "min_price": 5899,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 5899
+      }
+    },
+    "427520": {
+      "name": "Factorio",
+      "url": "https://store.steampowered.com/app/427520/",
+      "currency": "EUR",
+      "min_price": 3200,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 3200
+      }
+    },
+    "489830": {
+      "name": "The Elder Scrolls V: Skyrim Special Edition",
+      "url": "https://store.steampowered.com/app/489830/",
+      "currency": "EUR",
+      "min_price": 999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 999
+      }
+    },
+    "1716740": {
+      "name": "Starfield",
+      "url": "https://store.steampowered.com/app/1716740/",
+      "currency": "EUR",
+      "min_price": 3999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 3999
+      }
+    },
+    "377160": {
+      "name": "Fallout 4",
+      "url": "https://store.steampowered.com/app/377160/",
+      "currency": "EUR",
+      "min_price": 799,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 799
+      }
+    },
+    "1151340": {
+      "name": "Fallout 76",
+      "url": "https://store.steampowered.com/app/1151340/",
+      "currency": "EUR",
+      "min_price": 999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 999
+      }
+    },
+    "2050650": {
+      "name": "Resident Evil 4",
+      "url": "https://store.steampowered.com/app/2050650/",
+      "currency": "EUR",
+      "min_price": 3999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 3999
+      }
+    },
+    "739630": {
+      "name": "Phasmophobia",
+      "url": "https://store.steampowered.com/app/739630/",
+      "currency": "EUR",
+      "min_price": 1899,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 1899
+      }
+    },
+    "883710": {
+      "name": "Resident Evil 2",
+      "url": "https://store.steampowered.com/app/883710/",
+      "currency": "USD",
+      "min_price": 2999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 2999
+      }
+    },
+    "108600": {
+      "name": "Project Zomboid",
+      "url": "https://store.steampowered.com/app/108600/",
+      "currency": "EUR",
+      "min_price": 2549,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 2549
+      }
+    },
+    "381210": {
+      "name": "Dead by Daylight",
+      "url": "https://store.steampowered.com/app/381210/",
+      "currency": "USD",
+      "min_price": 1499,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 1499
+      }
+    },
+    "221100": {
+      "name": "DayZ",
+      "url": "https://store.steampowered.com/app/221100/",
+      "currency": "EUR",
+      "min_price": 4799,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 4799
+      }
+    },
+    "294100": {
+      "name": "RimWorld",
+      "url": "https://store.steampowered.com/app/294100/",
+      "currency": "EUR",
+      "min_price": 2559,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 2559
+      }
+    },
+    "949230": {
+      "name": "Cities: Skylines II",
+      "url": "https://store.steampowered.com/app/949230/",
+      "currency": "INR",
+      "min_price": 219700,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 219700
+      }
+    },
+    "1250410": {
+      "name": "Microsoft Flight Simulator (2020) 40th Anniversary Edition",
+      "url": "https://store.steampowered.com/app/1250410/",
+      "currency": "USD",
+      "min_price": 5999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 5999
+      }
+    },
+    "1551360": {
+      "name": "Forza Horizon 5",
+      "url": "https://store.steampowered.com/app/1551360/",
+      "currency": "EUR",
+      "min_price": 5999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 5999
+      }
+    },
+    "255710": {
+      "name": "Cities: Skylines",
+      "url": "https://store.steampowered.com/app/255710/",
+      "currency": "EUR",
+      "min_price": 2799,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 2799
+      }
+    },
+    "242760": {
+      "name": "The Forest",
+      "url": "https://store.steampowered.com/app/242760/",
+      "currency": "USD",
+      "min_price": 1049,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 1049
+      }
+    },
+    "1326470": {
+      "name": "Sons Of The Forest",
+      "url": "https://store.steampowered.com/app/1326470/",
+      "currency": "EUR",
+      "min_price": 2899,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 2899
+      }
+    },
+    "620": {
+      "name": "Portal 2",
+      "url": "https://store.steampowered.com/app/620/",
+      "currency": "INR",
+      "min_price": 48000,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 48000
+      }
+    },
+    "548430": {
+      "name": "Deep Rock Galactic",
+      "url": "https://store.steampowered.com/app/548430/",
+      "currency": "EUR",
+      "min_price": 2999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 2999
+      }
+    },
+    "962130": {
+      "name": "Grounded",
+      "url": "https://store.steampowered.com/app/962130/",
+      "currency": "EUR",
+      "min_price": 3999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 3999
+      }
+    },
+    "782330": {
+      "name": "DOOM Eternal",
+      "url": "https://store.steampowered.com/app/782330/",
+      "currency": "AUD",
+      "min_price": 1582,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 1582
+      }
+    },
+    "550": {
+      "name": "Left 4 Dead 2",
+      "url": "https://store.steampowered.com/app/550/",
+      "currency": "EUR",
+      "min_price": 975,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 975
+      }
+    },
+    "70": {
+      "name": "Half-Life",
+      "url": "https://store.steampowered.com/app/70/",
+      "currency": "EUR",
+      "min_price": 819,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 819
+      }
+    },
+    "203160": {
+      "name": "Tomb Raider Game of the Year",
+      "url": "https://store.steampowered.com/app/203160/",
+      "currency": "IDR",
+      "min_price": 21700000,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 21700000
+      }
+    },
+    "1659040": {
+      "name": "HITMAN World of Assassination",
+      "url": "https://store.steampowered.com/app/1659040/",
+      "currency": "USD",
+      "min_price": 1449,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 1449
+      }
+    },
+    "750920": {
+      "name": "Shadow of the Tomb Raider: Definitive Edition",
+      "url": "https://store.steampowered.com/app/750920/",
+      "currency": "EUR",
+      "min_price": 3999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 3999
+      }
+    },
+    "1158310": {
+      "name": "Crusader Kings III",
+      "url": "https://store.steampowered.com/app/1158310/",
+      "currency": "EUR",
+      "min_price": 4999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 4999
+      }
+    },
+    "281990": {
+      "name": "Stellaris",
+      "url": "https://store.steampowered.com/app/281990/",
+      "currency": "EUR",
+      "min_price": 4999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 4999
+      }
+    },
+    "289070": {
+      "name": "Sid Meier’s Civilization® VI",
+      "url": "https://store.steampowered.com/app/289070/",
+      "currency": "MXN",
+      "min_price": 59900,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 59900
+      }
+    },
+    "1295660": {
+      "name": "Sid Meier's Civilization VII",
+      "url": "https://store.steampowered.com/app/1295660/",
+      "currency": "USD",
+      "min_price": 6999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 6999
+      }
+    },
+    "230410": {
+      "name": "Warframe",
+      "url": "https://store.steampowered.com/app/230410/",
+      "currency": null,
+      "min_price": null,
+      "min_date": null,
+      "prices": {}
+    },
+    "359550": {
+      "name": "Tom Clancy's Rainbow Six Siege",
+      "url": "https://store.steampowered.com/app/359550/",
+      "currency": null,
+      "min_price": null,
+      "min_date": null,
+      "prices": {}
+    },
+    "1085660": {
+      "name": "Destiny 2",
+      "url": "https://store.steampowered.com/app/1085660/",
+      "currency": null,
+      "min_price": null,
+      "min_date": null,
+      "prices": {}
+    },
+    "2344520": {
+      "name": "Diablo® IV",
+      "url": "https://store.steampowered.com/app/2344520/",
+      "currency": "EUR",
+      "min_price": 4999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 4999
+      }
+    },
+    "2369390": {
+      "name": "Far Cry® 6",
+      "url": "https://store.steampowered.com/app/2369390/",
+      "currency": "CAD",
+      "min_price": 1999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 1999
+      }
+    },
+    "460930": {
+      "name": "Tom Clancy's Ghost Recon® Wildlands",
+      "url": "https://store.steampowered.com/app/460930/",
+      "currency": "EUR",
+      "min_price": 249,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 249
+      }
+    },
+    "812140": {
+      "name": "Assassin's Creed® Odyssey",
+      "url": "https://store.steampowered.com/app/812140/",
+      "currency": "EUR",
+      "min_price": 1199,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 1199
+      }
+    },
+    "582160": {
+      "name": "Assassin's Creed® Origins",
+      "url": "https://store.steampowered.com/app/582160/",
+      "currency": "EUR",
+      "min_price": 899,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 899
+      }
+    },
+    "2208920": {
+      "name": "Assassin's Creed Valhalla",
+      "url": "https://store.steampowered.com/app/2208920/",
+      "currency": "EUR",
+      "min_price": 1499,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 1499
+      }
+    },
+    "2694490": {
+      "name": "Path of Exile 2",
+      "url": "https://store.steampowered.com/app/2694490/",
+      "currency": "EUR",
+      "min_price": 2775,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 2775
+      }
+    },
+    "1817070": {
+      "name": "Marvel’s Spider-Man Remastered",
+      "url": "https://store.steampowered.com/app/1817070/",
+      "currency": "EUR",
+      "min_price": 5999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 5999
+      }
+    },
+    "1593500": {
+      "name": "God of War",
+      "url": "https://store.steampowered.com/app/1593500/",
+      "currency": "INR",
+      "min_price": 329900,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 329900
+      }
+    },
+    "1817190": {
+      "name": "Marvel’s Spider-Man: Miles Morales",
+      "url": "https://store.steampowered.com/app/1817190/",
+      "currency": "USD",
+      "min_price": 3999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 3999
+      }
+    },
+    "1888930": {
+      "name": "The Last of Us™ Part I",
+      "url": "https://store.steampowered.com/app/1888930/",
+      "currency": "EUR",
+      "min_price": 5999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 5999
+      }
+    },
+    "1151640": {
+      "name": "Horizon Zero Dawn™ Complete Edition",
+      "url": "https://store.steampowered.com/app/1151640/",
+      "currency": null,
+      "min_price": null,
+      "min_date": null,
+      "prices": {}
+    },
+    "1687950": {
+      "name": "Persona 5 Royal",
+      "url": "https://store.steampowered.com/app/1687950/",
+      "currency": "USD",
+      "min_price": 1799,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 1799
+      }
+    },
+    "1778820": {
+      "name": "TEKKEN 8",
+      "url": "https://store.steampowered.com/app/1778820/",
+      "currency": "USD",
+      "min_price": 2639,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 2639
+      }
+    },
+    "1966720": {
+      "name": "Lethal Company",
+      "url": "https://store.steampowered.com/app/1966720/",
+      "currency": "INR",
+      "min_price": 48000,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 48000
+      }
+    },
+    "1364780": {
+      "name": "Street Fighter™ 6",
+      "url": "https://store.steampowered.com/app/1364780/",
+      "currency": "USD",
+      "min_price": 3999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 3999
+      }
+    },
+    "1971870": {
+      "name": "Mortal Kombat 1",
+      "url": "https://store.steampowered.com/app/1971870/",
+      "currency": "EUR",
+      "min_price": 4999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 4999
+      }
+    },
+    "1313140": {
+      "name": "Cult of the Lamb",
+      "url": "https://store.steampowered.com/app/1313140/",
+      "currency": "EUR",
+      "min_price": 919,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 919
+      }
+    },
+    "1794680": {
+      "name": "Vampire Survivors",
+      "url": "https://store.steampowered.com/app/1794680/",
+      "currency": "EUR",
+      "min_price": 499,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 499
+      }
+    },
+    "1868140": {
+      "name": "DAVE THE DIVER",
+      "url": "https://store.steampowered.com/app/1868140/",
+      "currency": "EUR",
+      "min_price": 1999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 1999
+      }
+    },
+    "1562430": {
+      "name": "DREDGE",
+      "url": "https://store.steampowered.com/app/1562430/",
+      "currency": "EUR",
+      "min_price": 999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 999
+      }
+    },
+    "1172620": {
+      "name": "Sea of Thieves: 2026 Edition",
+      "url": "https://store.steampowered.com/app/1172620/",
+      "currency": "EUR",
+      "min_price": 1399,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 1399
+      }
+    },
+    "2358720": {
+      "name": "Black Myth: Wukong",
+      "url": "https://store.steampowered.com/app/2358720/",
+      "currency": "USD",
+      "min_price": 4199,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 4199
+      }
+    },
+    "1284190": {
+      "name": "The Planet Crafter",
+      "url": "https://store.steampowered.com/app/1284190/",
+      "currency": "EUR",
+      "min_price": 2399,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 2399
+      }
+    },
+    "1332010": {
+      "name": "Stray",
+      "url": "https://store.steampowered.com/app/1332010/",
+      "currency": "EUR",
+      "min_price": 2849,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 2849
+      }
+    },
+    "870780": {
+      "name": "CONTROL Ultimate Edition",
+      "url": "https://store.steampowered.com/app/870780/",
+      "currency": "CAD",
+      "min_price": 4799,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 4799
+      }
+    },
+    "1509750": {
+      "name": "Cold Heart",
+      "url": "https://store.steampowered.com/app/1509750/",
+      "currency": "EUR",
+      "min_price": 99,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 99
+      }
+    },
+    "668210": {
+      "name": "Super Fancy Pants Adventure",
+      "url": "https://store.steampowered.com/app/668210/",
+      "currency": "EUR",
+      "min_price": 999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 999
+      }
+    },
+    "1774580": {
+      "name": "STAR WARS Jedi: Survivor™",
+      "url": "https://store.steampowered.com/app/1774580/",
+      "currency": "EUR",
+      "min_price": 1049,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 1049
+      }
+    },
+    "1627720": {
+      "name": "Lies of P",
+      "url": "https://store.steampowered.com/app/1627720/",
+      "currency": "EUR",
+      "min_price": 2999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 2999
+      }
+    },
+    "1172380": {
+      "name": "STAR WARS Jedi: Fallen Order™",
+      "url": "https://store.steampowered.com/app/1172380/",
+      "currency": "EUR",
+      "min_price": 799,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 799
+      }
+    },
+    "524220": {
+      "name": "NieR:Automata™",
+      "url": "https://store.steampowered.com/app/524220/",
+      "currency": "KRW",
+      "min_price": 4480000,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 4480000
+      }
+    },
+    "1888160": {
+      "name": "ARMORED CORE™ VI FIRES OF RUBICON™",
+      "url": "https://store.steampowered.com/app/1888160/",
+      "currency": "EUR",
+      "min_price": 5999,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 5999
+      }
+    },
+    "2379780": {
+      "name": "Balatro",
+      "url": "https://store.steampowered.com/app/2379780/",
+      "currency": "USD",
+      "min_price": 1199,
+      "min_date": "2026-08-12",
+      "prices": {
+        "2026-08-12": 1199
+      }
+    }
+  },
+  "epic": {
+    "seen": [
+      "Beacon Pines",
+      "We Were Here Together"
+    ]
+  },
+  "updated": "2026-08-12T07:27:54.523631+00:00"
+}
