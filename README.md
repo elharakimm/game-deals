@@ -1,5 +1,7 @@
 # Today's Top Deals (game-deals)
 
+> Track the **best video game deals** — Epic giveaways, biggest Steam discounts and all-time low price alerts.
+
 A small Python + Streamlit app that tracks video game deals:
 
 - **Free games on the Epic Games Store** (current + upcoming giveaways)
@@ -20,6 +22,14 @@ Prices are fetched from public APIs (no keys needed):
 - `.github/workflows/daily-deal-check.yml` - runs `deal_checker.py --update`
   once a day and commits the fresh price history, so all-time lows stay
   accurate even when nobody visits the app
+
+## Live demo
+
+The web version is **live** on:
+
+**[https://pythongreatagain.com/game-deals/](https://pythongreatagain.com/game-deals/)**
+
+It's part of **[Make Python Great Again](https://pythongreatagain.com/)** — a growing collection of free Python tools that solve everyday problems.
 
 ## Run locally
 
@@ -43,7 +53,7 @@ streamlit run app.py
 
 ```html
 <iframe
-  src="https://your-name-game-deals.streamlit.app/?embed=true"
+  src="https://pythongreatagain.com/game-deals/?embed=true"
   width="100%"
   height="1200"
   frameborder="0"
